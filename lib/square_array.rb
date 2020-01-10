@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  for i in 0...array.size do
+    array[i] *= array[i]
+  end
 end
